@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Test/v15/Server/sqlite3
+/Test/bin/Debug/netcoreapp2.2
+/Test/obj
+/Test.Data/bin/Debug/netcoreapp2.1
+/Test.Data/obj
+/Test.Domain/bin/Debug/netcoreapp2.2
+/Test.Domain/obj
+/Test.DTO/bin/Debug/netcoreapp2.2
+/Test.DTO/obj
+/IntelligentReach.Interview.BogdanUngureanu.v2

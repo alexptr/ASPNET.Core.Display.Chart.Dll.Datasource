@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <button class="btn btn-primary" (click)="toggleChart()">Show Chart</button>
+    <button class="btn btn-primary" (click)="getChartData()">Refresh data</button>
+  </div>
+
+  <h4>Main chart area, visibility toggable</h4>
+
+  <div class="row" *ngIf="visible">
+
+    <div class="container">
+      <p-chart type="line" [data]="data" (onDataSelect)="selectData($event)"></p-chart>
+    </div>
+  </div>
+</div>
